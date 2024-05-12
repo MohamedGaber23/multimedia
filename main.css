@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.main input,select{
+    padding: 8px;
+    margin: 8px;
+background-color: rgb(245, 245, 245);
+border: 1px rgb(226, 226, 226) solid;
+outline: none;
+border-radius: 3px;
+
+}
+select {
+color: black;
+}
+input[type="submit"]{
+background-color: red;
+width: 100px;
+font-size: 17px;
+color: white;
+cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(141, 4, 4);
+    transition: .6s;
+
+}
+#login{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+#login:hover{
+    transition: 0,6s;
+    background-color:rgb(6, 6, 133);
+}
+
+.or{
+    margin: 20px;
+}
+span{
+    font-weight: bolder;
+}
+.bc{
+    background-image: url(images/login\ bachgrand.jpeg);
+    background-position: center;
+    background-size: auto;
+    
+    height: 93vh;
+}
+
